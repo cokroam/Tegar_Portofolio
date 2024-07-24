@@ -1,4 +1,3 @@
-import React from "react";
 
 interface Props {
   name: string;
@@ -11,7 +10,7 @@ const ProjectCard = (props: Props) => {
   const { name, year, description, bgColor } = props;
 
   return (
-    <div className={`flex flex-col gap-3 ${bgColor} p-5 rounded-sm rounded-2xl`}>
+    <div className={`flex flex-col gap-3 ${bgColor} p-5 rounded-2xl`}>
           <div className="flex flex-row justify-between">
         <label>{name}</label>
         <div>{year}</div>

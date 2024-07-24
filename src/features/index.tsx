@@ -1,8 +1,6 @@
 import Education from "../components/eduaction";
 import Foto from "../assets/Foto.jpg";
 import ProjectCard from "../components/project-card";
-import React from "react";
-import { width } from "@fortawesome/free-brands-svg-icons/fa42Group";
 
 interface Education {
   nameschool: string;
@@ -59,7 +57,7 @@ const LandingPage = () => {
         borderRadius : "0.5 rem",
       }}/>
       </section>
-      <section className="flex flex-col px-5 py-8 gap-2 rounded-sm bg-[#77E4C8]  rounded-2xl">
+      <section className="flex flex-col px-5 py-8 gap-2  bg-[#77E4C8]  rounded-2xl">
         <label className="font-semibold text-lg">Summary</label>
         <p className="text-base text-justify">
         Lulusan Sarjana Jurusan Teknik Elektronika dengan program studi pendidikan teknik informatika
